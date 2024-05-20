@@ -1,0 +1,105 @@
+@font-face {
+    font-family: OutfitBlack;
+    src:  url('./fonts/outfit/static/Outfit-Regular.ttf');
+    font-weight: 400, 600, 700;
+}
+
+@font-face {
+    font-family: YoungSerif;
+    src: url('./fonts/young-serif/YoungSerif-Regular.ttf');
+    font-weight: 400;
+}
+
+body {
+    font-family: 'OutfitBlack', sans-serif;
+    background-color: #F3E5D8;
+    font-size: 20px;
+    display: block;
+}
+
+.box {
+    border-radius: 50px;
+    background-color: white;
+    color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    width: 60%;
+    position: relative;
+}
+
+.image {
+    border-radius: 50px;
+    /* align-items: top; */
+    /* margin: auto;  */
+    width: 100%;
+    margin: auto;
+    /* display: block; */
+    /* padding: 5px 5px 5px 5px; */
+}
+
+div {
+    border-radius: 25px;
+}
+
+h1 {
+    color: #2D2C2A;
+    font-size: 40px;
+    font-family: 'YoungSerif', serif;
+    /* width: 85%; */
+}
+
+
+.preparationTime {
+    color: #7B284F !important; 
+    font-family: 'OutfitBlack', sans-serif;
+}
+
+p {
+    color: rgb(58, 11, 11);
+    font-size: 16px;
+    margin-top: -20px;
+    font-weight: 500;
+}
+
+.list {
+    list-style-type: disc;
+    color: black;
+    font-size: 16px;
+}
+
+.list1 {
+    margin-top: -15px;
+    font-family: ;
+    background-color: #FFF7FC;
+    color: black;
+    padding: 15px 15px 15px 20px;
+}
+
+li{
+    padding: 5px;
+}
+ol {
+    color: black;
+}
+
+.ingredients{
+    font-size: 20px;
+    color: rgb(58, 11, 11);     
+    font-family: 'YoungSerif', serif; 
+    font-size: 30px;
+}
+
+table {
+    color: black;
+    width: 100%;
+    border-spacing: 0;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
