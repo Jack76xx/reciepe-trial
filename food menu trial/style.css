@@ -1,6 +1,6 @@
 @font-face {
     font-family: OutfitBlack;
-    src:  url('./fonts/outfit/static/Outfit-Regular.ttf');
+    src: url('./fonts/outfit/static/Outfit-Regular.ttf');
     font-weight: 400, 600, 700;
 }
 
@@ -12,7 +12,7 @@
 
 body {
     font-family: 'OutfitBlack', sans-serif;
-    background-color: #F3E5D8;
+    background-color: #F3E6D8;
     font-size: 20px;
     display: block;
 }
@@ -26,7 +26,7 @@ body {
     padding: 50px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     margin: auto;
-    width: 60%;
+    width: 40%;
     position: relative;
 }
 
@@ -53,12 +53,12 @@ h1 {
 
 
 .preparationTime {
-    color: #7B284F !important; 
+    color: #7B284F !important;
     font-family: 'OutfitBlack', sans-serif;
 }
 
 p {
-    color: rgb(58, 11, 11);
+    color: 	#7e7c7a;
     font-size: 16px;
     margin-top: -20px;
     font-weight: 500;
@@ -66,31 +66,70 @@ p {
 
 .list {
     list-style-type: disc;
-    color: black;
+    color: 	#7e7c7a;
     font-size: 16px;
+    font-family: 'OutfitBlack', sans-serif;
+}
+
+.ollist {
+    color: 	#7e7c7a;
+    /* font-weight: bold; */
+    font-size: 16px;
+    font-family: 'OutfitBlack', sans-serif;
 }
 
 .list1 {
     margin-top: -15px;
-    font-family: ;
-    background-color: #FFF7FC;
-    color: black;
+    font-family: 'OutfitBlack', sans-serif;
+    background-color: #fff5fa;
+    color: "#5f574e";
     padding: 15px 15px 15px 20px;
 }
 
-li{
+li {
     padding: 5px;
 }
+
+li b{
+    color: 	#353434;
+    font-weight: 700;
+}
+
 ol {
     color: black;
 }
 
-.ingredients{
+.ingredients {
     font-size: 20px;
-    color: rgb(58, 11, 11);     
-    font-family: 'YoungSerif', serif; 
-    font-size: 30px;
+    color: #854632;
+    font-family: 'YoungSerif', serif;
+    font-size: 25px;
 }
+
+.instructions {
+    font-size: 20px;
+    color: #854632;
+    font-family: 'YoungSerif', serif;
+    font-size: 25px;
+}
+
+.nutrition{
+    font-size: 20px;
+    color: #854632;
+    font-family: 'YoungSerif', serif;
+    font-size: 25px;
+}
+
+.weight{
+    color: #854632;
+    font-size: 16px;
+}
+
+.calories{
+    color: "#5f574e";
+    font-size: 16px;
+}
+
 
 table {
     color: black;
