@@ -58,7 +58,21 @@ h1 {
 }
 
 p {
-    color: 	#7e7c7a;
+    color: #7e7c7a;
+    font-size: 16px;
+    margin-top: -20px;
+    font-weight: 500;
+}
+
+.omelette {
+    color: #7e7c7a;
+    font-size: 16px;
+    margin-top: -20px;
+    font-weight: 500;
+}
+
+.nutri {
+    color: #7e7c7a;
     font-size: 16px;
     margin-top: -20px;
     font-weight: 500;
@@ -66,13 +80,13 @@ p {
 
 .list {
     list-style-type: disc;
-    color: 	#7e7c7a;
+    color: #7e7c7a;
     font-size: 16px;
     font-family: 'OutfitBlack', sans-serif;
 }
 
 .ollist {
-    color: 	#7e7c7a;
+    color: #7e7c7a;
     /* font-weight: bold; */
     font-size: 16px;
     font-family: 'OutfitBlack', sans-serif;
@@ -90,8 +104,8 @@ li {
     padding: 5px;
 }
 
-li b{
-    color: 	#353434;
+li b {
+    color: #353434;
     font-weight: 700;
 }
 
@@ -113,19 +127,20 @@ ol {
     font-size: 25px;
 }
 
-.nutrition{
+.nutrition {
     font-size: 20px;
     color: #854632;
     font-family: 'YoungSerif', serif;
     font-size: 25px;
 }
 
-.weight{
+.weight {
     color: #854632;
     font-size: 16px;
+    font-weight: 900;
 }
 
-.calories{
+.calories {
     color: "#5f574e";
     font-size: 16px;
 }
@@ -141,4 +156,91 @@ td {
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
+}
+
+/* responsiveness */
+
+@media only screen and (max-width:600px) {
+    body {
+        background-color: none;
+    }
+
+    .box {
+        border-radius: 0px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .image {
+        margin: 0;
+        border-radius: 0px;
+    }
+
+    h1 {
+        font-size: 25px;
+        padding-left: 30px;
+    }
+
+    .omelette {
+        font-size: 15px;
+        padding-left: 30px;
+        padding-right: 2px;
+        padding-top: 10px;
+    }
+
+    .preparationTime {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .list1 {
+        margin: 10px;
+    }
+
+    .list {
+        font-size: 14px;
+    }
+
+    .ingredients {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .ollist {
+        font-size: 14px;
+    }
+
+    .instructions {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .nutritionDiv{
+        margin: 20px;
+    }
+
+    .nutrition {
+        font-size: 20px;
+         margin: 0;
+    }
+
+    .nutri {
+        font-size: 14px;
+        padding-top: 10px;
+        margin: 0;
+    }
+
+    .calories {
+        padding-left: 20px;
+        font-size: 14px;
+    }
+
+    .weight {
+        font-size: 14px;
+        padding-right: 20px;
+    }
+
+    .caloriesTable {
+        /* margin: 10px; */
+    }
 }
